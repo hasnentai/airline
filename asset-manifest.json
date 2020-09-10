@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/airline/static/css/main.261f35fe.chunk.css",
-    "main.js": "/airline/static/js/main.ff92a3f5.chunk.js",
-    "main.js.map": "/airline/static/js/main.ff92a3f5.chunk.js.map",
+    "main.js": "/airline/static/js/main.9cba394d.chunk.js",
+    "main.js.map": "/airline/static/js/main.9cba394d.chunk.js.map",
     "runtime-main.js": "/airline/static/js/runtime-main.c9ac1fce.js",
     "runtime-main.js.map": "/airline/static/js/runtime-main.c9ac1fce.js.map",
     "static/css/2.cb35402e.chunk.css": "/airline/static/css/2.cb35402e.chunk.css",
     "static/js/2.80bff78d.chunk.js": "/airline/static/js/2.80bff78d.chunk.js",
     "static/js/2.80bff78d.chunk.js.map": "/airline/static/js/2.80bff78d.chunk.js.map",
     "index.html": "/airline/index.html",
-    "precache-manifest.0fdf8e43981d61d15a7d620840ac6006.js": "/airline/precache-manifest.0fdf8e43981d61d15a7d620840ac6006.js",
+    "precache-manifest.59f28d98f02949e88e5deb7376fe87f8.js": "/airline/precache-manifest.59f28d98f02949e88e5deb7376fe87f8.js",
     "service-worker.js": "/airline/service-worker.js",
     "static/css/2.cb35402e.chunk.css.map": "/airline/static/css/2.cb35402e.chunk.css.map",
     "static/css/main.261f35fe.chunk.css.map": "/airline/static/css/main.261f35fe.chunk.css.map",
@@ -24,6 +24,7 @@
     "static/media/ana-ticket.jpg": "/airline/static/media/ana-ticket.194a379b.jpg",
     "static/media/anajal-logo.svg": "/airline/static/media/anajal-logo.fafea7ee.svg",
     "static/media/banner-plane.jpg": "/airline/static/media/banner-plane.175f56f6.jpg",
+    "static/media/banner-tag.jpg": "/airline/static/media/banner-tag.83ff6d72.jpg",
     "static/media/bottomd.svg": "/airline/static/media/bottomd.45edae26.svg",
     "static/media/cloud 1.svg": "/airline/static/media/cloud 1.e12dba34.svg",
     "static/media/cloud 2.svg": "/airline/static/media/cloud 2.c20912bc.svg",
@@ -52,7 +53,6 @@
     "static/media/jal-ticket.jpg": "/airline/static/media/jal-ticket.65cd4cfe.jpg",
     "static/media/morden_illustration.svg": "/airline/static/media/morden_illustration.3e6292fa.svg",
     "static/media/offcard.svg": "/airline/static/media/offcard.39930f20.svg",
-    "static/media/overview-right-image.png": "/airline/static/media/overview-right-image.0775f762.png",
     "static/media/overviewtext.svg": "/airline/static/media/overviewtext.70567ef5.svg",
     "static/media/people_choose.svg": "/airline/static/media/people_choose.1b628261.svg",
     "static/media/people_choose_1.svg": "/airline/static/media/people_choose_1.d4d48f62.svg",
@@ -83,6 +83,6 @@
     "static/css/2.cb35402e.chunk.css",
     "static/js/2.80bff78d.chunk.js",
     "static/css/main.261f35fe.chunk.css",
-    "static/js/main.ff92a3f5.chunk.js"
+    "static/js/main.9cba394d.chunk.js"
   ]
 }

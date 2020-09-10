@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "00c3478c66ecdb4df4095efb32bdd6ff",
+    "revision": "4ad1d578b630bd7ec624c71a9052df21",
     "url": "/airline/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/airline/static/css/2.cb35402e.chunk.css"
   },
   {
-    "revision": "f2a68f9236c479ccc2fe",
+    "revision": "7df0e23c1f44debf014d",
     "url": "/airline/static/css/main.261f35fe.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/airline/static/js/2.80bff78d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f2a68f9236c479ccc2fe",
-    "url": "/airline/static/js/main.ff92a3f5.chunk.js"
+    "revision": "7df0e23c1f44debf014d",
+    "url": "/airline/static/js/main.9cba394d.chunk.js"
   },
   {
     "revision": "28ed8dedbe12ba110336",
@@ -66,6 +66,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "175f56f629dfdc43115067d6bc03f1bc",
     "url": "/airline/static/media/banner-plane.175f56f6.jpg"
+  },
+  {
+    "revision": "83ff6d729b1b27e1018b9f4190aec80b",
+    "url": "/airline/static/media/banner-tag.83ff6d72.jpg"
   },
   {
     "revision": "45edae2652e3d358bf0bcd24f78c99bd",
@@ -194,10 +198,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "39930f2010834d19f3866e8c42374b20",
     "url": "/airline/static/media/offcard.39930f20.svg"
-  },
-  {
-    "revision": "0775f762ceeb8d4cd2cd972e1e058b4d",
-    "url": "/airline/static/media/overview-right-image.0775f762.png"
   },
   {
     "revision": "70567ef557dfb65bb1174cf9a9e34e85",
