@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7e08594ecb2d18e2aa693a7c89b8f35c",
+    "revision": "be49cfd39f6e9276af30fc2722ad02ac",
     "url": "/airline/index.html"
   },
   {
@@ -40,7 +40,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/airline/static/css/9.03d9a2f1.chunk.css"
   },
   {
-    "revision": "b118df04e8cacb9a7e31",
+    "revision": "ca7f5b7528b2b30a24b2",
     "url": "/airline/static/css/main.fd7283a5.chunk.css"
   },
   {
@@ -104,8 +104,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/airline/static/js/9.8f998330.chunk.js"
   },
   {
-    "revision": "b118df04e8cacb9a7e31",
-    "url": "/airline/static/js/main.44e9de2d.chunk.js"
+    "revision": "ca7f5b7528b2b30a24b2",
+    "url": "/airline/static/js/main.9662717a.chunk.js"
   },
   {
     "revision": "ceb2a0087760beff5b8d",
