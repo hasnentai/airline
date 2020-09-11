@@ -1,0 +1,72 @@
+.con_txt {
+  margin-top: 5em;
+  margin-bottom: 50px;
+  padding: 1px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  display: flex;
+}
+.con_txt .box_txt {
+  padding: 2% 3%;
+  width: 50%;
+  position: relative;
+  box-sizing: border-box;
+}
+.con_txt .box_txt li {
+  list-style-type: disc;
+  line-height: 2em;
+}
+.con_txt .box_txt span {
+  color: #cc0000;
+  padding-right: 0.3em;
+}
+.con_txt .box_contact {
+  width: 50%;
+  padding: 2% 2% 0.5%;
+  text-align: center;
+  box-sizing: border-box;
+}
+.con_txt .box_contact .title_tel {
+  padding-bottom: 10px;
+  text-align: center;
+  font-size: 139%;
+}
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+  .con_txt .box_contact .title_tel {
+    font-size: 116%;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .con_txt .box_contact .title_tel span {
+    display: none;
+  }
+}
+.con_txt .box_contact dl dt {
+  margin-bottom: 0.25em;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #089ed5;
+}
+.con_txt .box_contact dl {
+  margin-bottom: 15px;
+}
+.con_txt .box_contact dl dd .txt_tel {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  line-height: 1.2;
+}
+.con_txt .box_contact dl dd .txt_tel {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  line-height: 1.2;
+}
+.con_txt .box_contact dl dd .txt_tel a,
+.con_txt .box_contact dl dd .txt_tel .tel {
+  font-size: 3em;
+}

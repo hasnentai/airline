@@ -1,0 +1,144 @@
+.privacy-item {
+  margin-bottom: 3rem;
+}
+.privacy-list-head {
+  margin: 1rem 0;
+  //   font-size: 150%;
+  font-weight: 100;
+  border-left: 7px solid #0837d5;
+  padding: 0.6em 1.5em;
+  margin: 30px 0;
+}
+.sub-head-list {
+  list-style-type: decimal;
+  margin-top: 1rem;
+}
+.sub-head-title {
+  border-bottom: 1px solid;
+  margin-top: 1rem;
+  padding-bottom: 10px;
+  font-weight: 600;
+}
+@media only screen and (max-width: 1024px) {
+  .privacy-list-head {
+    font-size: 20px;
+    padding: 0 1.5em;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .privacy-container {
+    padding: 0 10px !important;
+  }
+}
+@media only screen and (min-width: 768px) {
+  #faq {
+   max-width: 700px;
+  }
+}
+.ques-container {
+  // background-color: #faf8fb;
+  font-weight: 600;
+  // color: #6e6c6f;
+  // border-left: 5px solid #c1223a;
+  border-bottom: 3px solid;
+  position: relative;
+  // padding-left: 3.5rem;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 3px 0;
+  cursor: pointer;
+  .faq-txt {
+    // position: absolute;
+    left: 25px;
+    // font-size: 3rem;
+    top: 40%;
+    transform: translate(-50%, -50%);
+  }
+  .faq-ques-txt {
+    // color: #c1223a;
+  }
+}
+
+.ans-container {
+  // color: #bdbdbd;
+  // border-left: 5px solid #a5a5a5;
+  position: relative;
+  // padding-left: 3.5rem;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 3px 0;
+  .faq-txt {
+    // position: absolute;
+    left: 25px;
+    // font-size: 3rem;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .faq-ques-txt {
+    // color: #c1223a;
+  }
+}
+
+.block-item {
+  margin: 1em 0;
+  padding: 0.75em 1.5em 1em;
+  background: #eee;
+  color: #000;
+}
+.block-head {
+  font-weight: 600;
+  margin-bottom: 0.1rem;
+}
+.block-data {
+}
+.faq-title {
+  text-align: center;
+  color:#86cee7 !important;
+  padding-top: 1rem;
+}
+.show-less{
+  color:#86cee7 !important;
+  cursor: pointer;
+  max-width: 130px;
+  padding-left:25px;
+  margin-top: 10px;
+  .chevron-icon-top {
+    position: relative;
+    &::before {
+      content: "";
+      position: absolute;
+      top: 10px;
+      left: -90px;
+      right: 40px;
+      margin: auto;
+      vertical-align: middle;
+      width: 15px;
+      height: 15px;
+      border-left: 2px solid #86cee7;
+      border-top: 2px solid #86cee7;
+      transform: rotate(45deg);
+    }
+  }
+}
+.faq-container{
+  background: #eef9ff;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  .chevron-icon-bottom {
+    position: relative;
+    &::before {
+      content: "";
+      position: absolute;
+      top: -23px;
+      bottom: 0;
+      right: 40px;
+      margin: auto;
+      vertical-align: middle;
+      width: 8px;
+      height: 8px;
+      border-bottom: 2px solid #000;
+      border-right: 2px solid #000;
+      transform: rotate(45deg);
+    }
+  }
+}

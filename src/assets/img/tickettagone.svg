@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="392" height="114.5" viewBox="0 0 392 114.5">
+  <g id="Group_148" data-name="Group 148" transform="translate(-548.8 -512.328)">
+    <rect id="Rectangle_65" data-name="Rectangle 65" width="391" height="113.5" transform="translate(549.3 512.828)" fill="#fff" stroke="#2e3192" stroke-miterlimit="10" stroke-width="1"/>
+    <rect id="Rectangle_66" data-name="Rectangle 66" width="120.5" height="88.5" transform="translate(549.8 537.328)" fill="#09c"/>
+    <rect id="Rectangle_67" data-name="Rectangle 67" width="391" height="25" transform="translate(549.3 512.828)" fill="#0b308e"/>
+    <g id="Group_35" data-name="Group 35">
+      <path id="Path_508" data-name="Path 508" d="M569.973,532.9h1.482l1.275-1.959h1.07a.136.136,0,0,0,.136-.136v-.559a.136.136,0,0,0-.136-.136h-.529l.281-.432h.82a.136.136,0,0,0,.136-.136v-.56a.135.135,0,0,0-.136-.135h-.279l1.394-2.142h3.922l1.891-1.378-1.891-1.23h-3.922l-1.394-2.142h.279a.136.136,0,0,0,.136-.136v-.559a.136.136,0,0,0-.136-.136h-.82l-.281-.432h.529a.136.136,0,0,0,.136-.136V520a.136.136,0,0,0-.136-.136h-1.07l-1.275-1.959h-1.482l2.672,6.2-5.366.406-.9-2.246h-1.527l1.277,3.144-1.277,3.143h1.527l.9-2.245,5.223.406Z" fill="#fff"/>
+      <path id="Path_509" data-name="Path 509" d="M569.113,518.39l-8.371-.244,8.371-.244Z" fill="#fff"/>
+      <path id="Path_510" data-name="Path 510" d="M569.113,532.9l-8.371-.244,8.371-.244Z" fill="#fff"/>
+      <path id="Path_511" data-name="Path 511" d="M563.148,528.552l-8.371-.244,8.371-.244Z" fill="#fff"/>
+      <path id="Path_512" data-name="Path 512" d="M563.148,522.747l-8.371-.244,8.371-.244Z" fill="#fff"/>
+    </g>
+    <g id="Group_36" data-name="Group 36">
+      <path id="Path_513" data-name="Path 513" d="M581.941,576.969H571.614l-3.3,4.859h-9.287l22.363-29.437h9.922l-.238,29.437h-9.526Zm.556-6.365.813-10.582L576.033,570.6Z" fill="#fff"/>
+      <path id="Path_514" data-name="Path 514" d="M605.325,552.391h8.493l4.833,16.286,6.251-16.286h8.574l-11.3,29.437H613.6l-4.82-16.163-6.2,16.163h-8.554Z" fill="#fff"/>
+      <path id="Path_515" data-name="Path 515" d="M648.183,576.969H637.856l-3.3,4.859h-9.287l22.363-29.437h9.922l-.238,29.437H647.79Zm.556-6.365.813-10.582L642.275,570.6Z" fill="#fff"/>
+    </g>
+    <g id="Group_37" data-name="Group 37">
+      <text id="全日空" transform="translate(610.114 610.662) rotate(19.716)" fill="#fff" font-size="21" font-family="HiraMaruProN-W4, Hiragino Maru Gothic ProN" letter-spacing="0.281em"><tspan x="-37.401" y="0">全日空</tspan></text>
+    </g>
+    <text id="_-" data-name="¥３,５００-" transform="translate(805.432 592.404)" fill="#0b308e" font-size="47.245" font-family="HiraKakuStdN-W8, Hiragino Kaku Gothic StdN"><tspan x="-132.947" y="0">¥３,５００-</tspan></text>
+    <rect id="Rectangle_68" data-name="Rectangle 68" width="130" height="20" transform="translate(809.806 605.828)" fill="#f7931e"/>
+    <text id="_2020年11月末ご搭乗分まで" data-name="2020年11月末ご搭乗分まで" transform="translate(874.8 619.363)" fill="#fff" font-size="9.381" font-family="HiraMaruProN-W4, Hiragino Maru Gothic ProN"><tspan x="-60.562" y="0">2020年11月末ご搭乗分まで</tspan></text>
+  </g>
+</svg>

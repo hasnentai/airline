@@ -1,0 +1,103 @@
+@import "../../styles/variable.scss";
+
+.landing_form_label_ec {
+  background: #203594;
+  color: #ffffff;
+  font-size: 18px;
+  padding: 15px;
+  cursor: pointer;
+}
+.vert-align {
+  vertical-align: inherit;
+}
+
+.login_message_box_ec {
+  //   width: 852px;
+  margin: 20px 5% 0;
+  border: solid 1px #c3c3c3;
+}
+.margint-50 {
+  margin-top: 50px;
+}
+
+p.login_message_wrapper_ec {
+  font-size: 14px;
+  margin: 20px 0 !important;
+  text-align: center;
+}
+input,
+select {
+  vertical-align: middle;
+}
+#show-login-view {
+  margin-right: 10px;
+}
+
+.chevron-right-icon {
+  position: relative;
+  &::after {
+    content: "";
+    position: absolute;
+    top: -23px;
+    right: 40px;
+    bottom: 0;
+    // right: 16px;
+    margin: auto;
+    vertical-align: middle;
+    width: 8px;
+    height: 8px;
+    border-top: 2px solid #fff;
+    border-right: 2px solid #fff;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+}
+.chevron-icon-bottom {
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    top: -23px;
+    bottom: 0;
+    right: 40px;
+    margin: auto;
+    vertical-align: middle;
+    width: 8px;
+    height: 8px;
+    border-bottom: 2px solid #fff;
+    border-right: 2px solid #fff;
+    transform: rotate(45deg);
+  }
+}
+
+.alert_ec {
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+.alert-success_ec {
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+  color: #468847;
+}
+
+.form-close{
+  color: #fff;
+  position: absolute;
+  right: 0;
+  top: -26px;
+  font-weight: 100;
+  opacity: 1 !important;
+}
+
+.form-close.close:hover {
+  color: #fff !important;
+  text-decoration: none;
+  background-color: initial;
+  border-color: unset;
+}
+.cust-container{
+  -webkit-animation:scaleme 1s forwards;
+  animation:scaleme 1s forwards;
+}

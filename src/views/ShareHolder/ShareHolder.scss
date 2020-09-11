@@ -1,0 +1,291 @@
+@import "../../styles/variable.scss";
+
+.image-holder{
+  height: 100%;
+  img{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+  }
+.share-title {
+  border-bottom: 3px solid $primary-border-color;
+  max-width: 95%;
+  /* margin-top: 38px; */
+  /* margin-bottom: 5px; */
+  margin: auto;
+  margin-top: 15px;
+}
+.share-card {
+  color: #fff;
+  border: none !important;
+  border-radius: 15px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-width: 880px;
+}
+.share-card-1 {
+  background-color: #fc2d2d !important;
+  color: #fff;
+}
+.share-card-0 {
+  background-color: $primary-bg-color !important;
+  color: #fff;
+}
+
+.share-holder-container {
+  border: 3px solid #000;
+  background: #fff;
+  text-align: center;
+  margin-top: 30px;
+  .fop-title{
+    font-weight: 600;
+  }
+  .share-card {
+    // margin: 20px 0;
+    // padding: 20px;
+    border-radius: 15px;
+  }
+  .share-header {
+    font-size: 60px;
+    line-height: 1;
+  }
+  .travel-place {
+    font-size: 24px;
+    // margin-top: 10px;
+  }
+  .date {
+    font-size: 24px;
+    // padding: 5px 0;
+  }
+ 
+  }
+  
+  .rp-inner {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    padding: 10px;
+    background: #e6eaeb;
+    color: #415973;
+    border-radius: 10px;
+    position: relative;
+    .line2 {
+      width: 189px;
+      height: 47px;
+      border-bottom: 2px solid #e62017;
+      transform: translateY(31px) translateX(5px) rotate(-17deg);
+      position: absolute;
+      top: -44px;
+      left: -10px;
+    }
+  }
+  .sb-price-container {
+    position: absolute;
+    padding: 20px;
+    border-radius: 10px;
+    bottom: 20px;
+    left: 233px;
+    line-height: 1;
+    div:nth-child(1) {
+      font-size: 20px;
+    }
+    div:nth-child(2) {
+      font-size: 65px;
+    }
+  }
+  .flex-wrapper{
+    display:flex;
+    flex-direction: row;
+  }
+  .share-left {
+    width: 70%;
+    position: relative;
+    -webkit-box-shadow: 6px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 6px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 6px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    padding: 20px;
+    border-radius: 15px;
+    z-index: 1;
+  }
+  .share-right {
+    width: 30%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 20px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+  .bk-txt {
+    padding: 10px 0;
+    font-size: 24px;
+  }
+  .plus-sign {
+    padding: 10px 0 10px 100px;
+  }
+  .share-pr {
+    padding-left: 67px;
+  }
+  .sh-num-text {
+    font-size: 20px;
+    padding: 5px 0;
+  }
+  .bottom-txt {
+    width: 250px;
+  }
+}
+.share-card-0 {
+  .sb-price-container {
+    background-image: linear-gradient(to right, #3dcbe8, #318ff5);
+  }
+  .share-right {
+    background-image: linear-gradient(to bottom, #318ff5, #e4ebf2);
+  }
+}
+.share-card-1 {
+  .sb-price-container {
+    background-image: linear-gradient(to right, #ef0000, #9e2020);
+  }
+  .share-right {
+    background-image: linear-gradient(to bottom, #9e2020, #e59e9efc);
+  }
+}
+
+.share-btn-container {
+  // margin-top: 20px;
+  text-align: center;
+  .btn.buy-now-btn {
+    width: 200px;
+    background: #fc2d2d;
+    border: none;
+    outline: none !important;
+    /* height: 40px; */
+    font-size: 24px;
+    box-shadow: none;
+    a {
+      color: inherit;
+    }
+    margin-bottom: 20px;
+  }
+}
+.disc-img{
+  width: 100%;
+  height: 140px;
+  object-fit: fill;
+}
+
+.share-btn-container {
+  // background-color: $primary-bg-color;
+  // background-image: url("../../assets/img/morden_illustration.svg");
+  background-position: initial;
+  background-repeat: no-repeat;
+  background-size: cover;
+  // height: 600px;
+  width: 100%;
+  // position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+.ad-btn{
+  position: inherit;
+}
+  .btn a {
+    display: block;
+    background: #e71f19;
+    padding: 24px;
+    color: #fff;
+    text-align: center;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 24px;
+    position: relative;
+    transition: 0.2s;
+    box-shadow: 0px 7px 8px -3px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 7px 8px -3px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 7px 8px -3px rgba(0, 0, 0, 0.3);
+    margin-top: 16px;
+    z-index: 2;
+    overflow: hidden;
+  }
+
+  .btn a:before {
+    display: block;
+    position: absolute;
+    z-index: -1;
+    left: -30%;
+    top: -25px;
+    content: "";
+    width: 80px;
+    height: 250px;
+    transform: rotate(30deg);
+    -webkit-transform: rotate(30deg);
+    -moz-transform: rotate(30deg);
+    background-image:-webkit-gradient(linear, left bottom, right bottom, color-stop(0%,rgba(255,255,255,0)), color-stop(50%,rgba(255,255,255,.9)),color-stop(100%,rgba(255,255,255,0)));
+    animation: shiny 2.5s infinite linear;
+    -webkit-animation: shiny 2.5s infinite linear;
+    -moz-animation: shiny 2.5s infinite linear;
+    // z-index: 9;
+  }
+
+  // .btn a:after {
+  //   content: "";
+  //   position: absolute;
+  //   top: 0;
+  //   bottom: 0;
+  //   right: 16px;
+  //   margin: auto;
+  //   vertical-align: middle;
+  //   width: 8px;
+  //   height: 8px;
+  //   border-top: 2px solid #fff;
+  //   border-right: 2px solid #fff;
+  //   -webkit-transform: rotate(45deg);
+  //   transform: rotate(45deg);
+  // }
+  .ad-text{
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width:767px){
+  .ad-text{
+    font-size: 10px !important;
+  }
+  .share-holder-right{
+    display: none;
+  }
+  .discount-cards-header{
+    font-size: 1.7rem!important;
+  }
+  .flex-wrapper{
+    padding: 0 15px 0 15px;
+    .display-3{
+      font-size: 1.9rem;
+    }
+    .destination{
+      font-size: 1.1rem!important;
+    }
+  }
+  .break-down{
+    font-size: 1.5rem;
+    padding:7px!important;
+  }
+
+  .ad-btn {
+    left: 0 !important;
+   
+    
+    a {
+      padding: 30px 24px!important;
+      font-size: 1.0rem;
+    }
+  }
+
+  .ad-text{
+    font-size: 18px !important;
+  }
+}

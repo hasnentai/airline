@@ -1,0 +1,155 @@
+@import "../../styles/variable.scss";
+#footer {
+  // background-image: linear-gradient(to bottom ,#fff,$primary-bg-color);
+  color: red;
+  text-align: center;
+  // padding: 32px 0;
+  font-size: 13px;
+  position: relative;
+}
+.fs0 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 0;
+  a {
+    color: #1e1666;
+    font-weight: 600;
+  }
+  a:hover {
+    color: $hover-color;
+  }
+  li{
+    margin: 10px 20px !important;
+  }
+}
+ul,
+ol {
+  list-style: none;
+}
+.vert-align {
+  vertical-align: inherit;
+}
+
+@media only screen and (max-width: 500px) {
+  .fs0 {
+    // display: block;
+    li {
+      margin: 5px 0;
+    }
+  }
+  .footer-txt {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0% !important;
+  }
+  .copy {
+    margin-bottom: 0;
+  }
+}
+.footer-txt {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.footer-copyright{
+  background-color: #1B143C;
+  color: #fff;
+}
+
+
+@media only screen and (max-width: 1000px) {
+
+  .right-info-f{
+    display: block;
+  }
+  .right-info-f ul{
+    padding-inline-start: 0!important;
+  }
+
+  .right-info-f ul img {
+    display: block!important;
+    margin-left: 27px;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+}
+
+.right-info-f ul img {
+  display: fle;
+  margin-left: 27px;
+  padding-bottom: 0px;
+  
+}
+
+.right-info-f ul{
+  
+}
+.anajal-menu{
+  display: flex;
+  padding-top:10px;
+  padding-bottom: 20px;
+  border-bottom: 0.1px solid #cccccc59;
+}
+.right-info{
+  flex:unset;
+}
+.right-info ul {
+  color: white;
+  margin-block-end: 0 !important;
+}
+
+.right-info ul img {
+  display: inline;
+  margin-left: 30px;
+  padding-bottom: 5px;
+  
+  cursor: pointer;
+}
+
+
+.footer-plane {
+  top: 15%;
+  position: absolute;
+  -webkit-animation: linear infinite;
+  -webkit-animation-name: run;
+  -webkit-animation-duration: 5s;
+  animation: linear infinite;
+  animation-name: run;
+  animation-duration: 5s;
+  animation-delay: 1s;
+}
+@-webkit-keyframes run {
+  0% {
+    left: 0;
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  50% {
+    left: 40%;
+  }
+  100% {
+    left: 80%;
+    opacity: 0;
+  }
+}
+@keyframes run {
+  0% {
+    left: 0;
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  50% {
+    left: 40%;
+  }
+  100% {
+    left: 80%;
+    opacity: 0;
+  }
+}

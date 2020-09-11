@@ -1,0 +1,42 @@
+.dic-wrapper {
+   
+  .disc-banner-container {
+   
+    text-align: center;
+    padding-bottom: 30px;
+    
+    color: #000;
+
+    font-size: 116%;
+    div {
+      // font-weight: 100;
+      // margin: 10px 0;
+
+      span {
+        font-weight: 1000;
+        color: #E80302;
+      }
+    }
+    .card-group{
+        .card{
+            border:1px solid #000;
+            font-weight: 700;
+            font-size: 1.3rem;
+        }
+        
+    }
+  }
+}
+.content-spacing {
+  margin-top: 50px;
+}
+
+@media only screen and (max-width:767px){
+    .main-wrapper .main-h2-wrapper{
+        padding-bottom: 0px!important;
+    }
+    .row{
+        margin-right: 0px!important;
+        margin-left: 0px!important; 
+    }
+}

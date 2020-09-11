@@ -1,0 +1,235 @@
+.top-border {
+  width: 100%;
+  border: 5px solid #000;
+  height: 340px;
+  padding: 5px;
+  background-color: #eef0f3;
+  margin-bottom: 50px;
+}
+.inner-border {
+  width: 100%;
+  border: 2px solid #000;
+  height: 100%;
+}
+.pc-questions {
+  text-align: center;
+  font-weight: 500;
+}
+.ques-btn-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+
+  .btn {
+    font-weight: 500;
+    width: 30%;
+    max-width: 200px;
+    border: none;
+    box-shadow: none;
+    border-radius: 20px;
+    margin: 0 10%;
+  }
+  .yes-btn {
+    background: red;
+  }
+  .no-btn {
+    background-color: #000;
+  }
+}
+.ques-header .modal-title {
+  width: 100%;
+}
+.ques-header {
+  .close {
+    padding: 1rem 2rem !important;
+    position: absolute;
+    right: 0;
+    top: auto;
+  }
+}
+.box_price.ana {
+  border-color: #052696;
+
+  margin-bottom: 0;
+  dt {
+    background: #052696;
+    color: #fff;
+  }
+}
+.box_price.jal {
+  border-color: #f10101;
+  dt {
+    background: #f10101;
+  }
+}
+.box_price.jal dd {
+  border: 2px solid #f10101;
+}
+.box_price.ana.jal .txt_price {
+  color: #f10101;
+}
+.ques-modal .box_price dt {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 !important;
+  width: 100%;
+  font-size: 154%;
+  font-weight: bold;
+  color: #fff;
+  // box-sizing: border-box;
+  font.sub {
+    font-size: 15px;
+  }
+}
+.box_price dt span {
+  margin-right: 0.5em;
+  font-size: 1.5em;
+  font-style: italic;
+}
+.vert-align {
+  vertical-align: center;
+}
+.box_price dd {
+  display: inline-flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.75em;
+  width: 100%;
+  height: 100%;
+  font-size: 100%;
+  background: #fff;
+  box-sizing: border-box;
+  border: 2px solid #052696;
+  margin-bottom: 0;
+}
+.box_price dd .price p {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 0;
+}
+.box_price dd .price p .txt_date {
+  margin-bottom: 0.5em;
+  padding: 10px;
+  line-height: 1;
+  font-size: 12px;
+  color: #fff;
+  background: #222;
+}
+.box_price dd .price p .txt_price {
+  line-height: 1;
+  font-size: 231%;
+  font-weight: bold;
+}
+.box_price.ana .txt_price {
+  color: #052696;
+}
+
+.box_price.sfj {
+  border-color: #000;
+  dt {
+    background: #000;
+  }
+}
+.box_price.sfj dd {
+  border: 2px solid #000;
+}
+.box_price.ana.sfj .txt_price {
+  color: #000;
+}
+.box_price.snj {
+  border-color: #499916;
+  dt {
+    background: #499916;
+  }
+}
+.box_price.snj dd {
+  border: 2px solid #499916;
+}
+.box_price.ana.snj .txt_price {
+  color: #499916;
+}
+.consumed-sc {
+  background-color: #c592bb !important;
+  .active-count {
+    div {
+      background: #b86eaa;
+    }
+  }
+}
+
+.active-sc {
+  background: #3a5c99 !important;
+  .active-count {
+    div {
+      background: #4a7acf;
+    }
+  }
+}
+.card-status {
+  text-align: left;
+}
+.box_price .bottom-dt {
+  font-size: 14px;
+  //   font-weight: 400;
+  display: block;
+  padding: 5px 1em;
+
+  p {
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .pr-card {
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .active-pr,
+  .sales-count {
+    margin-bottom: 20px;
+  }
+  .box_price dt font.sub {
+    font-size: 12px;
+  }
+
+  .bottom-dt {
+    font-size: 12px !important;
+  }
+  .ovw .row {
+    margin: 0 !important;
+  }
+  .inner-border .fop-title {
+    font-size: 24px !important;
+  }
+  .top-border {
+    height: 260px;
+    margin: 0 10px 20px;
+    width: calc(100% - 20px);
+  }
+  .pc-questions {
+    font-size: 14px;
+  }
+}
+
+.ques-modal {
+  .ad-btn {
+    margin: 10px 0;
+    padding: 0;
+    width: 250px;
+    a {
+      padding: 10px;
+    }
+  }
+  .ad-text {
+    font-size: 1rem;
+  }
+}
+.ticket-imgs{
+  height: 150px;
+}

@@ -1,0 +1,901 @@
+/*------------------------------------
+* PC,SP共通部分
+*-------------------------------------*/
+/* リセット */
+body {
+  margin: 0;
+}
+
+#confirm-view h1,
+#confirm-view h2,
+#confirm-view h3,
+#confirm-view h4,
+#confirm-view h5,
+#confirm-view h6,
+#confirm-view p,
+#confirm-view ul,
+#confirm-view ol,
+#confirm-view li,
+#confirm-view dl,
+#confirm-view dt,
+#confirm-view dd,
+#confirm-view blockquote {
+  margin: 0;
+}
+
+#confirm-view ul,
+#confirm-view ol {
+  list-style: none inside;
+}
+
+#confirm-view img,
+#confirm-view a img {
+  border: 0;
+  vertical-align: middle;
+}
+
+#confirm-view .clearfix {
+  zoom: 1;
+}
+#confirm-view .clearfix:after {
+  clear: both;
+  content: "";
+  display: block;
+}
+/* フォームボックスの各項目区切り  */
+
+#confirm-view * {
+  outline: none !important;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+#confirm-view {
+  font-size: 12px;
+  line-height: 1.42857143;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #333333;
+}
+
+#confirm-view table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+#countdown-timer {
+  margin: 30px auto;
+}
+#countdown-timer h2 {
+  line-height: 24px;
+  font-size: 16px;
+  padding: 10px;
+  text-decoration: underline;
+}
+#countdown-timer .timer-clock {
+  font-size: 20px;
+  font-weight: bold;
+}
+#countdown-timer .timer-clock .timer {
+  display: inline-block;
+}
+
+/*------------------------------------
+* PC部分
+*-------------------------------------*/
+.form_container_ec a {
+  text-decoration: none;
+}
+/* Form 項目と入力ボックス間の空白調節*/
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10,
+.col-11,
+.col-12,
+.col-13,
+.col-14,
+.col-15,
+.col-16,
+.col-17,
+.col-18,
+.col-19,
+.col-20,
+.col-21,
+.col-22,
+.col-23,
+.col-24 {
+  float: left;
+  position: relative;
+  min-height: 1px;
+}
+.col-24 {
+  width: 100%;
+}
+.col-23 {
+  width: 95.83333333%;
+}
+.col-22 {
+  width: 91.66666667%;
+}
+.col-21 {
+  width: 87.5%;
+}
+.col-20 {
+  width: 83.33333333%;
+}
+.col-19 {
+  width: 79.16666667%;
+}
+.col-18 {
+  width: 75%;
+}
+.col-17 {
+  width: 70.83333333%;
+}
+.col-16 {
+  width: 66.66666667%;
+}
+.col-15 {
+  width: 62.5%;
+}
+.col-14 {
+  width: 58.33333333%;
+}
+.col-13 {
+  width: 54.16666667%;
+}
+.col-12 {
+  width: 50%;
+}
+.col-11 {
+  width: 45.83333333%;
+}
+.col-10 {
+  width: 41.66666667%;
+}
+.col-9 {
+  width: 37.5%;
+}
+.col-8 {
+  width: 33.33333333%;
+}
+.col-7 {
+  width: 29.16666667%;
+}
+.col-6 {
+  width: 25%;
+}
+.col-5 {
+  width: 20.83333333%;
+}
+.col-4 {
+  width: 16.66666667%;
+}
+.col-3 {
+  width: 12.5%;
+}
+.col-2 {
+  width: 8.33333333%;
+}
+.col-1 {
+  width: 4.16666667%;
+}
+.form_container_ec {
+  width: 940px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.menu_ec {
+  width: 20%;
+}
+.confirm_subtitle_ec p {
+  margin: 0px;
+}
+.form_confirm_ec {
+  width: 90%;
+  margin: 10px auto;
+  -webkit-animation: fadein 1s;
+  -moz-animation: fadein 1s;
+  animation: fadein 2s;
+  overflow: hidden;
+}
+#confirm-view .form_confirm_ec h1 {
+  font-size: 24px;
+  font-weight: 100;
+  margin-bottom: 15px;
+}
+.block_ec {
+  width: 100%;
+  // float: left;
+  position: relative;
+  margin-top: 10px;
+  background: #ffffff;
+  border: 1px solid #e5e5e5;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  padding: 10px;
+}
+.confirm_title_ec {
+  text-align: center;
+}
+.form_wizard_ec .form_wizard_levels_ec {
+  position: relative;
+  float: left;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+  margin-bottom: 10px;
+  background: #e5e5e5;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+.form_wizard_ec .form_wizard_levels_ec {
+  position: relative;
+  float: left;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+  margin-bottom: 10px;
+  background: #33414e;
+  -moz-border-radius: 5px 5px 0px 0px;
+  -webkit-border-radius: 5px 5px 0px 0px;
+  border-radius: 5px 5px 0px 0px;
+}
+.form_wizard_ec .form_wizard_levels_ec li {
+  float: left;
+  position: relative;
+}
+
+.form_container_ec ul li {
+  list-style: none;
+}
+.form_container_ec li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+.confirm_content_ec,
+.block-footer {
+  width: 100%;
+  float: left;
+  padding: 10px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  position: relative;
+}
+.form_container_ec th,
+td {
+  text-align: left;
+}
+.table_bordered_ec {
+  border: 0px !important;
+}
+.table_ec {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 40px;
+}
+.table_ec > thead > tr > th,
+.table_ec > tbody > tr > th,
+.table_ec > tfoot > tr > th,
+.table_ec > thead > tr > td,
+.table_ec > tbody > tr > td,
+.table_ec > tfoot > tr > td {
+  padding: 8px;
+  line-height: 1.42857143;
+  vertical-align: top;
+  border-top: 1px solid #ddd;
+}
+.table_bordered_ec > thead > tr > th,
+.table_bordered_ec > tbody > tr > th,
+.table_bordered_ec > tfoot > tr > th,
+.table_bordered_ec > thead > tr > td,
+.table_bordered_ec > tbody > tr > td,
+.table_bordered_ec > tfoot > tr > td {
+  border: 1px solid #ddd;
+}
+.table_ec tr > th {
+  border-top: 0px;
+  background: #f0f0f0;
+  font-size: 10px;
+}
+.table_ec tr > th,
+.table_ec tr > td {
+  font-size: 12px;
+}
+.table_bordered_ec tr > th,
+.table_bordered_ec tr > td {
+  border: 1px solid #e5e5e5 !important;
+}
+.table_ec th,
+.table_ec td {
+  vertical-align: middle !important;
+  line-height: 20px !important;
+  border-top: 1px solid #e5e5e5 !important;
+}
+.table_ec tr > td.pull_right_ec {
+  text-align: right;
+}
+.table_ec tr > td.blank_field_ec {
+  background: #eee;
+}
+.table_ec tr > th.product_name_ec {
+  width: 60%;
+}
+.table_ec tr > th.product_price_ec {
+  width: 15%;
+}
+.table_ec tr > th.product_quantity_ec {
+  width: 10%;
+}
+.table_ec tr > th.product_sub_total_ec {
+  width: 15%;
+}
+.total_color_ec {
+  color: #ff0000;
+  font-weight: bold;
+}
+.btn_mg_ec {
+  margin-left: 20px;
+}
+
+.table_bordered_ec tr:last-child > th,
+.table_bordered_ec tr:last-child > td {
+}
+.center_ec {
+  text-align: center;
+}
+.form_wizard_ec .form_wizard_levels_ec {
+  position: relative;
+  float: left;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+  margin-bottom: 10px;
+  background: #e7e7e7;
+  -moz-border-radius: 5px 5px 0px 0px;
+  -webkit-border-radius: 5px 5px 0px 0px;
+  border-radius: 5px 5px 0px 0px;
+}
+.form_wizard_ec .form_wizard_levels_ec li {
+  float: left;
+  position: relative;
+}
+.form_wizard_ec .form_wizard_levels_ec li a {
+  display: block;
+  float: left;
+  color: #fff;
+  text-align: center;
+  line-height: 30px;
+  font-size: 14px;
+  text-decoration: none;
+  padding: 10px 10px 10px 20px;
+  height: 50px;
+  margin-right: 25px;
+  position: relative;
+}
+
+.form_wizard_ec .form_wizard_levels_ec li a span {
+  display: block;
+  float: left;
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  margin-top: 5px;
+  font-size: 11px;
+  background: #475b6d;
+  border: 1px solid #313e4b;
+  line-height: 18px;
+}
+
+.form_wizard_ec .form_wizard_levels_ec li:first-child a {
+  -moz-border-radius: 5px 0px 0px;
+  -webkit-border-radius: 5px 0px 0px;
+  border-radius: 5px 0px 0px;
+}
+
+.form_inline_ec {
+  display: inline-block;
+}
+
+/*------------------------------------
+* スマートフォン部分
+*-------------------------------------*/
+.form_container_sp_ec a {
+  text-decoration: none;
+}
+.form_container_sp_ec {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.menu_sp_ec {
+  width: 30%;
+}
+/* テーブルデザイン */
+.form_confirm_sp_ec {
+  width: 100%;
+  float: left;
+  margin: 10px auto;
+  padding: 10px;
+  -webkit-animation: fadein 1s;
+  -moz-animation: fadein 1s;
+  animation: fadein 2s;
+  overflow: hidden;
+  position: relative;
+  background: #ffffff;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+.form_confirm_sp_ec h1 {
+  font-size: 24px;
+  font-weight: 100;
+  margin-bottom: 15px;
+}
+.confirm_title_sp_ec {
+  text-align: center;
+  margin-top: 20px;
+}
+.confirm_content_sp_ec,
+.block-footer {
+  width: 100%;
+  float: left;
+  padding: 10px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  position: relative;
+}
+.form_container_sp_ec th,
+td {
+  text-align: left;
+}
+.table_bordered_sp_ec {
+  border: 0px !important;
+}
+.table_sp_ec {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 40px;
+}
+.table_sp_ec > thead > tr > th,
+.table_sp_ec > tbody > tr > th,
+.table_sp_ec > tfoot > tr > th,
+.table_sp_ec > thead > tr > td,
+.table_sp_ec > tbody > tr > td,
+.table_sp_ec > tfoot > tr > td {
+  padding: 8px;
+  line-height: 1.42857143;
+  vertical-align: top;
+  border-top: 1px solid #ddd;
+}
+.table_bordered_sp_ec > thead > tr > th,
+.table_bordered_sp_ec > tbody > tr > th,
+.table_bordered_sp_ec > tfoot > tr > th,
+.table_bordered_sp_ec > thead > tr > td,
+.table_bordered_sp_ec > tbody > tr > td,
+.table_bordered_sp_ec > tfoot > tr > td {
+  border: 1px solid #ddd;
+}
+.table_sp_ec tr > th {
+  border-top: 0px;
+  background: #f0f0f0;
+  font-size: 10px;
+}
+.table_sp_ec tr > th,
+.table_sp_ec tr > td {
+  font-size: 12px;
+}
+.table_bordered_sp_ec tr > th,
+.table_bordered_sp_ec tr > td {
+  border: 1px solid #e5e5e5 !important;
+}
+.table_sp_ec th,
+.table_sp_ec td {
+  vertical-align: middle !important;
+  line-height: 20px !important;
+  border-top: 1px solid #e5e5e5 !important;
+}
+.table_bordered_sp_ec tr:last-child > th,
+.table_bordered_sp_ec tr:last-child > td {
+}
+.center_sp_ec {
+  text-align: center;
+}
+.confirm_subtitle_sp_ec p {
+  margin: 0px;
+}
+
+p.form_box_label_sp_ec strong {
+  font-weight: bold;
+}
+
+.pull_right_ec {
+  text-align: right;
+}
+
+.form_sub_group_sp_ec {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  position: relative;
+}
+.form_sub_box_label_sp_ec {
+  padding: 2%;
+  vertical-align: middle;
+  text-align: left;
+}
+
+.total_color_sp_ec {
+  color: #ff0000;
+  font-weight: bold;
+  border-bottom: 1px solid #eee;
+}
+
+/*-------------------------------------*
+ * PCデザイン可変部分
+ *-------------------------------------*/
+/* 【PC】タイトルのアンダーバー */
+.confirm_subtitle_ec {
+  border: 1px solid #ddd;
+  border-bottom: 3px solid #203594;
+  font-weight: bold;
+  padding: 10px;
+  font-size: 120%;
+  margin: 0 0 10px 0;
+}
+/* 【PC】ご注文内容の確認の色 */
+.form_wizard_ec .form_wizard_levels_ec li.active a {
+  border-top: solid #eee 1px;
+  border-bottom: solid #eee 1px;
+  background: #203594;
+  color: white;
+}
+.form_wizard_ec .form_wizard_levels_ec li.active a:after {
+  left: 100%;
+  top: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-color: rgba(136, 183, 213, 0);
+  border-left-color: #203594;
+  border-width: 25px;
+  margin-top: -25px;
+}
+.form_wizard_ec .form_wizard_levels_ec li.active a span {
+  color: #fff;
+  background: #000;
+  border-color: #203594;
+  font-weight: bold;
+}
+
+/* 【PC】ボタン関連 */
+.submit_bottom_ec {
+  border: 0px;
+  width: 400px;
+  height: 150px;
+  background: url("/assets/default_order_comp-6baf1ae5951cb6ca295e07a256d9d8ce2e646d315125a11207f4d833c9cca5d3.png")
+    center;
+  background-size: 394px auto;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+/* 【PC】ボタン関連 */
+.btn_ec.btn_default_ec,
+.btn_ec.btn_default_ec:focus {
+  background: #ffffff;
+  border: 1px solid #d5d5d5;
+}
+
+.btn_default_ec {
+  color: #333;
+  background-color: #fff;
+  border-color: #ccc;
+}
+
+.btn_ec {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+.big_btn_ec {
+  font-size: 160%;
+  padding: 6px 30px;
+}
+
+.btn_color_ec {
+  background: #00ab00;
+  color: white;
+}
+
+/*-------------------------------------*
+ * スマートフォンデザイン可変部分
+ *-------------------------------------*/
+/* 【SP】タイトルのアンダーバー */
+.confirm_subtitle_sp_ec {
+  border: 1px solid #ddd;
+  border-bottom: 3px solid #203594;
+  font-weight: bold;
+  padding: 10px;
+  font-size: 120%;
+  margin: 0 0 10px 0;
+}
+
+/* 【SP】フォームの項目名ラベル(確認) */
+.form_sub_box_label_sp_ec {
+  background: #eee;
+}
+
+/* 【SP】ボタン関連 */
+.submit_bottom_sp_ec {
+  border: 0px;
+  width: 100%;
+  height: 150px;
+  background: url("/assets/default_order_comp-6baf1ae5951cb6ca295e07a256d9d8ce2e646d315125a11207f4d833c9cca5d3.png")
+    center;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.btn_sp_ec.btn_default_sp_ec,
+.btn_sp_ec.btn_default_sp_ec:focus {
+  background: #ffffff;
+  border: 1px solid #d5d5d5;
+}
+.btn_sp_ec {
+  width: 80%;
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+.btn_default_sp_ec {
+  width: 50%;
+  color: #333;
+  background-color: #fff;
+  border-color: #ccc;
+}
+.btn_color_sp_ec {
+  background: #00ab00;
+  color: white;
+}
+.big_btn_sp_ec {
+  font-size: 160%;
+  padding: 10px 30px;
+}
+
+/*-------------------------------------*
+ * PCデザイン可変部分
+ *-------------------------------------*/
+/* 【PC】タイトルのアンダーバー */
+.confirm_subtitle_ec {
+  border: 1px solid #ddd;
+  border-bottom: 3px solid #203594;
+  font-weight: bold;
+  padding: 10px;
+  font-size: 120%;
+  margin: 0 0 10px 0;
+}
+/* 【PC】ご注文内容の確認の色 */
+.form_wizard_ec .form_wizard_levels_ec li.active a {
+  border-top: solid #eee 1px;
+  border-bottom: solid #eee 1px;
+  background: #203594;
+  color: white;
+}
+.form_wizard_ec .form_wizard_levels_ec li.active a:after {
+  left: 100%;
+  top: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-color: rgba(136, 183, 213, 0);
+  border-left-color: #203594;
+  border-width: 25px;
+  margin-top: -25px;
+}
+.form_wizard_ec .form_wizard_levels_ec li.active a span {
+  color: #fff;
+  background: #000;
+  border-color: #203594;
+  font-weight: bold;
+}
+
+/* 【PC】ボタン関連 */
+.submit_bottom_ec {
+  border: 0px;
+  width: 400px;
+  height: 150px;
+  background-size: 394px auto;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.btn_ec.btn_default_ec,
+.btn_ec.btn_default_ec:focus {
+  background: #ffffff;
+  border: 1px solid #d5d5d5;
+}
+
+.btn_default_ec {
+  color: #333;
+  background-color: #fff;
+  border-color: #ccc;
+}
+.btn_ec {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+.big_btn_ec {
+  font-size: 160%;
+  padding: 6px 30px;
+}
+
+.btn_color_ec {
+  background: #00ab00;
+  color: white;
+}
+
+/*-------------------------------------*
+ * スマートフォンデザイン可変部分
+ *-------------------------------------*/
+/* 【SP】タイトルのアンダーバー */
+.confirm_subtitle_sp_ec {
+  border: 1px solid #ddd;
+  border-bottom: 3px solid #203594;
+  font-weight: bold;
+  padding: 10px;
+  font-size: 120%;
+  margin: 0 0 10px 0;
+}
+
+/* 【SP】フォームの項目名ラベル(確認) */
+.form_sub_box_label_sp_ec {
+  background: #eee;
+}
+
+/* 【SP】ボタン関連 */
+.submit_bottom_sp_ec {
+  border: 0px;
+  width: 100%;
+  height: 150px;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.btn_sp_ec.btn_default_sp_ec,
+.btn_sp_ec.btn_default_sp_ec:focus {
+  background: #ffffff;
+  border: 1px solid #d5d5d5;
+}
+.btn_sp_ec {
+  width: 80%;
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+.btn_default_sp_ec {
+  width: 50%;
+  color: #333;
+  background-color: #fff;
+  border-color: #ccc;
+}
+.btn_color_sp_ec {
+  background: #00ab00;
+  color: white;
+}
+.big_btn_sp_ec {
+  font-size: 160%;
+  padding: 10px 30px;
+}
+
+@media only screen and(max-width:767px) {
+  .form_confirm_ec {
+    margin: 0;
+    width: 100%;
+  }
+  .confirm_title_ec{
+      font-size: 24px;
+  }
+  .container{
+      padding: 0 !important;
+  }
+  .block_ec.form_wizard_ec{
+margin-top: 0;
+  }
+  .form_wizard_levels_ec{
+      li{
+          width: 100%;
+      }
+      a{
+        width: calc(100% - 25px);
+      }
+  }
+}

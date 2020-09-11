@@ -1,0 +1,13 @@
+@import "../../styles/variable.scss";
+.site-usage{
+    border-bottom: 3px solid $primary-border-color;
+    width: 640px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+
+}
+.video-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}

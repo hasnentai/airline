@@ -1,0 +1,226 @@
+@keyframes fop-animate {
+  0% {
+    opacity: 0;
+    transform:  translateY(50px);
+  }
+
+  100% {
+    opacity: 1;
+    transform:  translateY(0);
+  }
+}
+
+
+.animate-fop{
+    animation-name: fop-animate;
+    animation-duration: 600ms;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in-out;
+   
+}
+
+
+.anajal-fop {
+  .fop-title-container {
+    background-color: #edf8ff;
+    padding: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+      width: 10%;
+      height: auto;
+    }
+  }
+  .fop-bottom-title-container {
+    padding: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+      width: 10%;
+      height: auto;
+    }
+  }
+  .fop-example-title-container{
+    padding: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+      width: 20%;
+      height: auto;
+    }
+  }
+  .fop-content-container {
+    background-color: #edf8ff;
+    display: flex;
+    align-items: center;
+    padding: 10px 10px 50px 10px;
+    justify-content: center;
+    .easy-content {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+    .custom-divider {
+      display: flex;
+      margin: 0 40px;
+      align-items: center;
+      justify-content: center;
+      img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 100px;
+      }
+    }
+  }
+
+  .fop-bottom-content-container {
+    display: flex;
+    align-items: center;
+    padding: 10px 10px 50px 10px;
+    justify-content: center;
+    .easy-content {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+    .custom-divider {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 40px;
+      img {
+        height: auto;
+      }
+    }
+  }
+  .sky-image {
+    position: relative;
+    background: url("../../assets/img/yellow-btn-bg.svg") rgba(255, 255, 255, 0.6);
+    background-blend-mode: overlay;
+    .button-holder {
+      padding: 20px;
+      text-align: center;
+      width: 100%;
+      height: 100%;
+      border-top: 1.5px solid #707070;
+      border-bottom: 1.5px solid #707070;
+      img {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+        cursor: pointer;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .anajal-fop {
+    .fop-title-container {
+      padding: 20px;
+  
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      img {
+        width: 30%;
+        height: auto;
+      }
+    }
+    .fop-example-title-container{
+      padding: 20px;
+  
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      img {
+        width: 40%;
+        height: auto;
+      }
+    }
+    .fop-content-container {
+      background-color: #edf8ff;
+      display: flex;
+      align-items: center;
+      padding: 10px 10px 50px 10px;
+      justify-content: center;
+      .easy-content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img {
+          width: 100%;
+          height: auto;
+        }
+      }
+      .custom-divider {
+        display: flex;
+        margin: 0 10px;
+        align-items: center;
+        justify-content: center;
+        img {
+          width: 100%;
+          height: auto;
+          margin-bottom: 50px;
+        }
+      }
+    }
+    .fop-bottom-title-container {
+      padding: 20px;
+  
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      img {
+        width: 30%;
+        height: auto;
+      }
+    }
+    .fop-bottom-content-container {
+      display: flex;
+      align-items: center;
+      padding: 10px 10px 50px 10px;
+      justify-content: center;
+      .easy-content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img {
+          width: 100%;
+          height: auto;
+        }
+      }
+      .custom-divider {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0px;
+        img {
+          height: 170px;
+        }
+      }
+    }
+    .sky-image {
+      position: relative;
+      img {
+        width: 100%;
+        height: 100px;
+        object-fit: cover;
+      }
+    }
+
+  }
+}
