@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "be49cfd39f6e9276af30fc2722ad02ac",
+    "revision": "f6e96fb8f6fe19ce0867ec93776ab7db",
     "url": "/airline/index.html"
   },
   {
@@ -28,7 +28,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/airline/static/css/2.b0d70484.chunk.css"
   },
   {
-    "revision": "e9eff37a0a8e31c83fec",
+    "revision": "6754d548d7ce42056c16",
     "url": "/airline/static/css/6.7ed24e17.chunk.css"
   },
   {
@@ -84,8 +84,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/airline/static/js/3.301db12e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e9eff37a0a8e31c83fec",
-    "url": "/airline/static/js/6.32361fc0.chunk.js"
+    "revision": "6754d548d7ce42056c16",
+    "url": "/airline/static/js/6.798e2fe3.chunk.js"
   },
   {
     "revision": "bfc73d6d277e07255fc5",
@@ -108,8 +108,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/airline/static/js/main.9662717a.chunk.js"
   },
   {
-    "revision": "ceb2a0087760beff5b8d",
-    "url": "/airline/static/js/runtime-main.3248ed4a.js"
+    "revision": "b2f4a3eff3fcc2a6c495",
+    "url": "/airline/static/js/runtime-main.581eff07.js"
   },
   {
     "revision": "2c7beeeff54051f5b161dcad0aacefe9",
